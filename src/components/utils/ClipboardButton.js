@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCopy } from 'react-icons/fa'; 
+import { FaCopy } from 'react-icons/fa';
 
 const CopyEmailButton = () => {
   const email = "asantivanezg@hotmail.com";
@@ -14,7 +14,7 @@ const CopyEmailButton = () => {
   };
 
   return (
-      <FaCopy onClick={copyToClipboard} style={{ cursor: "pointer", fontSize: "24px" }}/>
+    <FaCopy onClick={copyToClipboard} style={{ cursor: "pointer", fontSize: "24px" }} />
   );
 };
 

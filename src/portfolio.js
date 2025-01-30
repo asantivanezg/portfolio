@@ -243,7 +243,7 @@ const bigProjects = {
       projectName: "Mobile banking",
       projectDesc: "Development of a mobile Android application for Caja Maynas customers. The app allows users to view bank account information and request the opening of credit, debit, fixed-term deposit and insurance. Additionally, it includes features for managing usage limits, enabling and disabling accounts and performing transfers between accountsm, among others.",
       footerLink: [
-  
+
         //  you can add extra buttons here.
       ]
     },
