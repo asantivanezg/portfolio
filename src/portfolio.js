@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Axel Santivañez",
+  title: "Hi all, I'm Axel",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Android developer 🚀 with +4 years of experience in mobile application development using Android, Kotlin and Java. Moreover, I have solid knowledge in tools, libraries and frameworks such as Android Studio, Jetpack Compose, Coroutines, Retrofit, Hilt, Firebase, Unit Testing, Postman and Git."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1g6QIvEPGV-r-wDdeB7OSxJUg1XYD2maa/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/asantivanezg",
+  linkedin: "https://www.linkedin.com/in/axel-santivanez/",
+  gmail: "asantivanezg@hotmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "ANDROID ENGINEER WHO WANTS TO DEVELOP A CHALLENGING APPLICATION",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Frontend / User Interfaces for your mobile application."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Development of offline functionalities and background services for the maximum use of the mobile application."
+    ),
+    emoji(
+      "⚡ Integration of backend services to obtain data."
+    ),
+    emoji(
+      "⚡ Applications with unit tests to minimize bugs."
+    ),
+    emoji(
+      "⚡ Modularized project structuring to scale and work in an orderly fashion with other developers."
     )
   ],
 
@@ -64,6 +72,38 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -76,46 +116,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -123,7 +123,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -153,16 +153,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Android", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Kotlin",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Java",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Git",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +178,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Sr. Android developer",
+      company: "Moventi",
+      companylogo: require("./assets/images/moventi_group_logo.jpg"),
+      date: "Oct 2023 – Dec 2024",
+      desc: "Moventi is an IT company with more than 10 years of experience driving technological innovation in the main sectors through business solutions, development and maintenance of custom software, global IT outsourcing, automation and artificial intelligence, and comprehensive management of cloud services",
+      techStack: "Git – Bitbucket, Gitflow, Jira, Modular architecture, Kotlin, Gradle, Clean Architecture, Hilt, Firebase, Unit Test, ProGuard, Jetpack Compose, MVI Pattern, Scrum methodology.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed the mobile banking app for a municipal savings and credit bank.",
+        "Implemented Kotlin DSL in the shared Gradle for improved dependency management, significantly reducing compilation time.",
+        "Applied ProGuard for code obfuscation to enhance application security.",
+        "Achieved a 20% code reduction by using recycled components.",
+        "Maintenance and improvement of mobile application for an important company that produces and sells eggs.",
+        "Maintenance and improvement of mobile application for a tourist and cargo train operator company.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Ssr. Android developer",
+      company: "Bancom",
+      companylogo: require("./assets/images/banco_de_comercio_logo.jpg"),
+      date: "Aug 2022 – Apr 2023",
+      desc: "Bancom is a Peruvian bank, with the purpose of providing experiences focusing on the segments of personal Banking, institutional and civil agreements, corporate banking and digital business.",
+      techStack: "Git – Azure DevOps, Gitflow, Kotlin, Gradle, Hilt, Firebase, Clean Architecture, Unit Test, ProGuard, Jetpack Compose, MVVM Pattern, MVI Pattern, Scrum methodology.",
+      descBullets: [
+        "Enhanced the main process for foreign exchange transactions.",
+        "Optimized dependency management by 70% by transitioning from Groovy to Kotlin DSL.",
+        "Implemented ProGuard to improve application security.",
+        "Reduced code by 10% through refactoring.",
+        "Decreased app size in production by 80% using ProGuard.",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Ssr. Android developer",
+      company: "Avances tecnológicos",
+      companylogo: require("./assets/images/avances_tecnologicos_srl_logo.jpg"),
+      date: "Nov 2021 – Jul 2022",
+      desc: "Avances tecnológico is a consulting company in systems development with the objective of offering its clients the most advanced IT solutions in the market.",
+      techStack: "Git – Azure DevOps, Kotlin, Gradle, Hilt, Firebase, Clean Architecture, Unit test, MVVM Pattern, Scrum methodology.",
+      descBullets: [
+        "Designed, implemented, and documented the Android project architecture.",
+        "Collaborated with the designer, improving screen rendering by 30% for a better user experience.",
+        "Reduced testing time by 30% by implementing Firebase App Distribution with QA.",
+      ]
     }
   ]
 };
@@ -205,37 +228,30 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Client Projects",
+  subtitle: "CLIENTS THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/caja-maynas.png"),
+      projectName: "Mobile banking",
+      projectDesc: "Development of a mobile Android application for Caja Maynas customers. The app allows users to view bank account information and request the opening of credit, debit, fixed-term deposit and insurance. Additionally, it includes features for managing usage limits, enabling and disabling accounts and performing transfers between accountsm, among others.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+  
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/redrilsa.jpg"),
+      projectName: "Administrative mobile app",
+      projectDesc: "Development of a mobile Android application for Redrilsa office employees. The app allows users to log their check-in using geolocation, pattern password, and facial recognition. It also enables check-out registration and the management of requests for breakfast, snacks, lunch, dinner, transportation, compensatory hours, days off and vacations.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -292,7 +308,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -300,7 +316,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +340,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +359,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +372,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +387,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Available to be hired. My Inbox is open for all.",
+  number: "+51 994898698",
+  email_address: "asantivanezg@hotmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
